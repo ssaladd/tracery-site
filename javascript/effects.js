@@ -48,8 +48,8 @@ var _3DPretty = function() {
           o.z = Math.cos(b) * r;
           obj.push(o);
           o.transform = function() {
-          var ax = .02 * _tx,
-              ay = .02 * _ty,
+          var ax = .005 * _tx,
+              ay = .005 * _ty,
               cx = Math.cos(ax),
               sx = Math.sin(ax),
               cy = Math.cos(ay),
