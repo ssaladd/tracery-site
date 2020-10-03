@@ -1,0 +1,16 @@
+body, .space 
+{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#space {
+  left: 0;
+  top: 0;
+  zoom: 1
+}
+
+#space span {
+  position: absolute;
+}

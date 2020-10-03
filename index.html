@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tracery</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/effects.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="javascript/scripts.js"></script>
+        <script src="javascript/effects.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="space" class="space">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-upper-space">
+                <a onclick="showHome()"><img src="assets/tracery-logo.png"/></a>
+            </div>
+            <div class="sidebar-socials">
+                <div class="fa fa-instagram"></div>
+                <div class="fa fa-facebook"></div>
+                <div class="fa fa-linkedin"></div>
+                <div class="fa fa-envelope"></div>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="main animate fadeInRight" id="main" >
+            <div class="main-upper-space">
+                <div class="main-upper-text">
+                    Tracery Technologies. 
+                </div>
+            </div>
+            <div class="main-text-space" >
+                <h1>Focus on your projects,</h1>
+                <h2>Let us focus on your tech.</h2>
+            </div>
+            <div class="main-button-space">
+                
+                <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                    contact us
+                </div>
+                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                    about us
+                </div>
+                <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
+                    our projects
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="main animate fadeInRight" id="about">
+            <div class="main-upper-space">
+                <div class="main-upper-text">
+                    Tracery Technologies. 
+                </div>
+            </div>
+            <div class="main-text-space" >
+                <h1>About us,</h1>
+                <p>
+                    Tracery Technologies is an app and web development firm that specializes in   
+                    quickly made high performance apps. We can comission one time fees, or can   
+                    maintain your app for as long as you'd like. Our agency is small, positioning 
+                    us to have close communications with every single one of our clients. As a    
+                    result, our apps come out highly custom, as we hear your input through every  
+                    step of the way.
+                </p>
+            </div>
+            <div class="main-button-space">
+                <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                    contact us
+                </div>
+                <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
+                    our projects
+                </div>
+            </div>
+        </div>
+        <!-- projects -->
+        <div class="main animate fadeInRight" id="projects">
+            <div class="main-upper-space">
+                <div class="main-upper-text">
+                    Tracery Technologies. 
+                </div>
+            </div>
+            <div class="main-text-space" >
+                <h1>Our Projects,</h1>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 4</div> -->
+                        <a target="_blank" href="https://nycaerospace.org"><img src="assets/nycaero-desktop.jpg" style="width:100%"></a>
+                        <!-- <div class="text-wrapper"><div class="text">nycaero</div></div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 4</div> -->
+                        <a target="_blank" href="https://www.katapultads.com/"><img src="assets/katapult.gif" style="width:100%"></a>
+                        <!-- <div class="text-wrapper"><div class="text">katapult</div></div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 4</div> -->
+                        <a target="_blank" href="https://covid.tracery.us/"><img src="assets/tracery-desktop.png" style="width:100%"></a>
+                        <!-- <div class="text-wrapper"><div class="text">contact tracing</div></div> -->
+                    </div>
+
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">4 / 4</div> -->
+                        <a target="_blank" href="https://fathomless-lowlands-11280.herokuapp.com"><img src="assets/falah.jpg" style="width:100%"></a>
+                        <!-- <div class="text-wrapper"><div class="text">falah</div></div> -->
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                </div>
+                    
+            </div>
+            <div class="main-button-space">
+                <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                    contact us
+                </div>
+                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                    about us
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div class="main animate fadeInRight" id="contact">
+            <div class="main-upper-space">
+                <div class="main-upper-text">
+                    Tracery Technologies. 
+                </div>
+            </div>
+            <div class="main-text-space" >
+                <h1>Contact us,</h1>
+                <p style="font-size: 22px;" class="contact-text">
+                    Working on a project? <br />
+                    We can help.          <br />
+                                          <br />
+                    Contact us at sofiane@tracery.us
+                </p>
+            </div>
+            <div class="main-button-space">
+                <div class="main-primary-button glow-on-hover" onclick="showProjects()">
+                    our projects
+                </div>
+                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                    about us
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
