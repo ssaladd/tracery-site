@@ -8,6 +8,9 @@ function showAbout()
     projects.style.display = "none";
     contact.style.display = "none";
     about.style.display = "block";
+
+    aboutIndex = 1;
+    showSection(aboutIndex);
 } 
 
 function showProjects() 
@@ -52,29 +55,40 @@ function showHome()
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 } 
-
 var slideIndex = 1;
 showSlides(slideIndex);
-
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+function showSection(n) {
+  var i;
+  var sections = document.getElementsByClassName("about-sections");
+  if (n > sections.length) {aboutIndex = 1}
+  if (n < 1) {aboutIndex = sections.length}
+  for (i = 0; i < sections.length; i++) {
+    sections[i].style.display = "none";
+  }
+  sections[aboutIndex-1].style.display = "block";
+}
+var aboutIndex = 1;
+showSection(aboutIndex);
+function plusSection(n) {
+  showSection(aboutIndex += n);
+}
+function currentSlide(n) {
+  showSection(aboutIndex = ns);
+}
+
+
 

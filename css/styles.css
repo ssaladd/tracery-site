@@ -145,10 +145,12 @@ body
 {
     padding-left: 80px;
     font-family: oxygenB;
+
 }
 .main-text-space p
 {
-    width: 460px;
+    width: 600px;
+    margin-top: 0px;
 }
 .main-text-space h1
 {
@@ -163,10 +165,16 @@ body
     font-size: 62px;
     margin: 0;
 }
+.main-text-space h3
+{
+    font-family: oxygenB;
+    font-size: 42px;
+    margin: 0;
+}
 .main-button-space
 {
     padding-left: 80px;
-    margin-top: 32px;
+    margin-top: 26px;
 }
 .main-primary-button
 {
@@ -256,6 +264,89 @@ body
 {
     display: none;
 }
+/* about ==========================================================================================*/
+.about-us-space
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.about-us-next
+{
+    width: 50px;
+    font-size: 62px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 600% 600%;
+    animation: rainbow 8s ease infinite;
+    cursor: pointer;
+}
+.about-sections
+{
+    display: none;
+    width: 620px;
+    height: 230px;
+    border-right: 3px solid #060608;
+}
+.about-sections p
+{
+    margin-bottom: 0px;
+}
+.tree
+{
+    margin-top: 8px;
+    display: flex;
+}
+.tree-line
+{
+    width: 3px;
+    height: 140px;
+    background-color: #060608;
+}
+.tree-branch-section
+{
+    width: 40px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tree-branch-line
+{
+    height: 3px;
+    width: 40px;
+    background-color:#060608;
+}
+.tree-branch-content
+{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tree-branch-content-text
+{
+
+}
+@keyframes rainbow
+{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 25%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 /* slides ==========================================================================================*/
 .mySlides {display: none}
 img {
@@ -380,6 +471,17 @@ img {
 }
 @media only screen and (max-width: 860px)
 {
+    .about-sections
+    {
+        display: none;
+        width: 520px;
+        height: initial;
+        border-right: 3px solid #060608;
+    }
+    .main-text-space p {
+        width: 500px;
+        margin-top: 0px;
+    }
     .main-text-space
     {
         padding-left: 50px;
@@ -464,9 +566,34 @@ img {
     {
         width: 390px;
     }
+    .about-sections
+    {
+        display: none;
+        width: 420px;
+        height: initial;
+    }
+}
+@media only screen and (max-width: 630px)
+{
+    .main-text-space p 
+    {
+        width: 360px;
+    }
+    .about-sections
+    {
+        display: none;
+        width: 380px;
+        height: initial;
+    }
 }
 @media only screen and (max-width: 580px)
 {
+    .about-sections
+    {
+        display: none;
+        width: 310px;
+        height: initial;
+    }
     .main-upper-text
     {
         font-size: 24px;
@@ -504,12 +631,18 @@ img {
     }
     .main-text-space p 
     {
-        width: 350px;
+        width: 290px;
         font-size: 14px;
     }
 }
 @media only screen and (max-width: 500px)
 {
+    .about-sections
+    {
+        display: none;
+        width: 290px;
+        height: initial;
+    }
     .slideshow-container 
     {
         margin-top: 30px;
@@ -585,8 +718,33 @@ img {
         font-size: 18px !important;
     }
 }
+@media only screen and (max-width: 450px)
+{
+    .about-sections
+    {
+        display: none;
+        width: 280px;
+        height: initial;
+    }
+    .about-us-next
+    {
+        font-size: 40px;
+        width: 35px;
+    }
+}
 @media only screen and (max-width: 420px)
 {
+    .about-sections
+    {
+        display: none;
+        width: 275px;
+        height: initial;
+    }
+    .main-text-space p 
+    {
+        width: initial;
+        font-size: 14px;
+    }
     .slideshow-container 
     {
         margin-top: 30px;

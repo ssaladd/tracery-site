@@ -78,9 +78,9 @@ var _3DPretty = function() {
         }
       }
       var anime = function() {
-        var se = .2 / _h;
-        _tx = (_y + _x1) * se;
-        _ty = (_x + _y1) * se;
+        var se = .08 / _h;
+        _tx = (_y + _x1) * se / 2;
+        _ty = (_x + _y1) * se / 2;
         _x1 += _ty;
         _y1 += _ty;
         for (var i = 0, o; o = obj[i]; i++) o.transform();
