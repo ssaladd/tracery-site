@@ -278,12 +278,12 @@ body
     display: flex;
     justify-content: end;
     align-items: center;
-    background-image: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    /* background-image: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 600% 600%;
-    animation: rainbow 8s ease infinite;
+    animation: rainbow 8s ease infinite; */
     cursor: pointer;
 }
 .about-sections
@@ -291,7 +291,7 @@ body
     display: none;
     width: 620px;
     height: 230px;
-    border-right: 3px solid #060608;
+    /* border-right: 3px solid #060608; */
 }
 .about-sections p
 {
