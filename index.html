@@ -1,263 +1,237 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tracery Technologies</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/effects.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <script src="javascript/scripts.js"></script>
-        <script src="javascript/effects.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body id="space" class="space">
-        <!-- sidebar -->
-        <div class="sidebar">
-            <div class="sidebar-upper-space">
-                <a onclick="showHome()"><img src="assets/tracery-logo.png"/></a>
-            </div>
-            <div class="sidebar-socials">
-                <div class="fa fa-instagram"></div>
-                <div class="fa fa-facebook"></div>
-                <div class="fa fa-linkedin"></div>
-                <div class="fa fa-envelope"></div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracery Technologies</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/effects.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="javascript/scripts.js"></script>
+    <script src="javascript/effects.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="space" class="space">
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-upper-space">
+            <a onclick="showHome()"><img src="assets/tracery-logo.png" /></a>
+        </div>
+        <div class="sidebar-socials">
+            <div class="fa fa-envelope" onclick="window.location.href='mailto:sofiane@tracery.us?subject=My%20Project'"></div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="main animate fadeInRight" id="main">
+        <div class="main-upper-space">
+            <div class="main-upper-text">
+                Tracery Technologies
             </div>
         </div>
-        <!-- main -->
-        <div class="main animate fadeInRight" id="main" >
-            <div class="main-upper-space">
-                <div class="main-upper-text">
-                    Tracery Technologies 
-                </div>
+        <div class="main-text-space">
+            <h1>Focus on your projects,</h1>
+            <h2>Let us focus on your tech.</h2>
+        </div>
+        <div class="main-button-space">
+
+            <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                Contact Us
             </div>
-            <div class="main-text-space" >
-                <h1>Focus on your projects,</h1>
-                <h2>Let us focus on your tech.</h2>
+            <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                About Us
             </div>
-            <div class="main-button-space">
-                
-                <div class="main-primary-button glow-on-hover" onclick="showContact()">
-                    contact us
-                </div>
-                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
-                    about us
-                </div>
-                <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
-                    our projects
-                </div>
+            <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
+                Our Projects
             </div>
         </div>
-        <!-- about -->
-        <div class="main animate fadeInRight" id="about">
-            <div class="main-upper-space">
-                <div class="main-upper-text">
-                    Tracery Technologies
-                </div>
+    </div>
+    <!-- about -->
+    <div class="main animate fadeInRight" id="about">
+        <div class="main-upper-space">
+            <div class="main-upper-text">
+                Tracery Technologies
             </div>
-            <div class="main-text-space" >
-                <h1>About us,</h1>
-                <div class="about-us-space">
-                    <div class="about-sections fade">
-                        <h3>
-                            overview
-                        </h3>
-                        <p>
-                            Tracery Technologies is an app and web development firm that specializes in   
-                            quickly made high performance apps. We can comission one time fees, or can   
-                            maintain your app for as long as you'd like. Our agency is small, positioning 
-                            us to have close communications with every single one of our clients. As a    
-                            result, our apps come out highly custom, as we hear your input through every  
-                            step of the way.
-                        </p>
-                    </div>
-                    <div class="about-sections fade">
-                        <h3>
-                            our branches
-                        </h3>
-                        <div class="tree">
-                            <div class="tree-line"></div>
-                            <div style="display: flex; flex-direction: column;">
-                                <div style="height: 20px;"></div>
-                                <div class="tree-branch-section">
-                                    <div class="tree-branch-line"></div>
-                                    <div class="tree-branch-line"></div>
-                                    <div class="tree-branch-line"></div>
-                                </div>
+        </div>
+        <div class="main-text-space">
+            <h1>About Us</h1>
+            <div class="about-us-space">
+                <div class="about-sections fade">
+                    <h3>
+                        Overview
+                    </h3>
+                    <p>
+                        Tracery Technologies is an app and web development firm that specializes in quickly made high performance apps. We can comission one time fees, or can maintain your app for as long as you'd like. Our agency is small, positioning us to have close communications
+                        with every single one of our clients. As a result, our apps come out highly custom, as we hear your input through every step of the way.
+                    </p>
+                </div>
+                <div class="about-sections fade">
+                    <h3>
+                        Our Expertise
+                    </h3>
+                    <div class="tree">
+                        <div class="tree-line"></div>
+                        <div style="display: flex; flex-direction: column;">
+                            <div style="height: 20px;"></div>
+                            <div class="tree-branch-section">
+                                <div class="tree-branch-line"></div>
+                                <div class="tree-branch-line"></div>
+                                <div class="tree-branch-line"></div>
                             </div>
-                            <div style="display: flex; flex-direction: column; margin-left: 6px;">
-                                <div style="height: 2px;"></div>
-                                <div class="tree-branch-content">
-                                    <div class="tree-branch-content-text">
-                                        Mobile development
-                                    </div>
-                                    <div class="tree-branch-content-text">
-                                        Web development
-                                    </div>
-                                    <div class="tree-branch-content-text">
-                                        Maintenence and Security
-                                    </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-left: 6px;">
+                            <div style="height: 2px;"></div>
+                            <div class="tree-branch-content">
+                                <div class="tree-branch-content-text">
+                                    Mobile development
+                                </div>
+                                <div class="tree-branch-content-text">
+                                    Web development
+                                </div>
+                                <div class="tree-branch-content-text">
+                                    Maintenence and Security
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="about-sections fade">
-                        <h3>
-                            mobile development
-                        </h3>
-                        <p>
-                            <img style="height: 44px; width: 44px; margin-bottom: 6px;" src="assets/apple.png">
-                            <img style="height: 44px; width: 44px; margin-bottom: 6px;" src="assets/android.png">
-                            &nbsp; 	&nbsp; We offer mobile applications for both Apple and Android.       
-                            <br />
-                            <img style="height: 44px; width: 64px;" src="assets/devices.png">
-                            &nbsp; 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Our apps are highly responsive and work for all devices.
-                            <br />
-                            Our highly responsive team allows us to take your input and implement it in every stage of the 
-                            app development process. As a result we can masterfully help out each and every customer
-                            with the best product out there.
-                        </p>
-                    </div>
-                    <div class="about-sections fade">
-                        <h3>
-                            web development
-                        </h3>
-                        <p>
-                            <img style="height: 44px; width: 64px; margin-bottom: 6px;" src="assets/website.png">
-                            &nbsp; 	&nbsp; We offer high quality websites with the best designs and backend. 
-                            <br />
-                            <img style="height: 34px; width: 28px; margin-left: 17px;" src="assets/lock.png">
-                            &nbsp; 	&nbsp; &nbsp; &nbsp; &nbsp;Our websites are super secure and offer the safest
-                            data storage.
-                            <br />
-                            
-                            We deliver websites specifically suited to your needs. You have a say in every step of the design
-                            and application process. We also offer maintenence to keep your website running spotlessly for years. 
-                        </p>
-                    </div>
-                    <div class="about-sections fade">
-                        <h3>
-                            application maintenence
-                        </h3>
-                        <p>
-                            <img style="height: 34px; width: 34px; margin-bottom: 6px;" src="assets/maintenance.png">
-                            &nbsp; 	&nbsp; We offer long term application health and security maintenance.
-                            <br />
-                            <img style="height: 34px; width: 28px;" src="assets/checklist.png">
-                            &nbsp; 	&nbsp; &nbsp;Our maintenance keeps your applications running healthy and well
-                            <br />
-                            
-                            We update faulty and insecure applications and update them to the 
-                            highest standards. our maintenance priveds long term assistance to continously make sure that 
-                            your applications are working at their best and healthiest capabilities.
-                        </p>
-                    </div>
-                    <div class="about-sections fade">
-                        <h3>
-                            our team
-                        </h3>
-                        <p>
-                            <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png">
-                            &nbsp; 	&nbsp; CEO, Sofiane Larbi
-                            <br />
-                            <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png">
-                            &nbsp; 	&nbsp; COO, Deez Nutz
-                            <br />
-                            <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png">
-                            &nbsp; 	&nbsp; CCO, Hamood Sod
-                            <br />
-                        </p>
-                    </div>
-                    <div class="about-us-next" onclick="plusSection(1)">
-                        &#10095;
-                    </div>
                 </div>
-                
-            </div>
-            <div class="main-button-space">
-                <div class="main-primary-button glow-on-hover" onclick="showContact()">
-                    contact us
+                <div class="about-sections fade">
+                    <h3>
+                        Mobile Development
+                    </h3>
+                    <p>
+                        <img style="height: 44px; width: 44px; margin-bottom: 6px;" src="assets/apple.png">
+                        <img style="height: 44px; width: 44px; margin-bottom: 6px;" src="assets/android.png"> &nbsp; &nbsp; We develop mobile applications for both Apple and Android.
+                        <br />
+                        <img style="height: 44px; width: 64px;" src="assets/devices.png"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Our apps are highly responsive and work for all devices.
+                        <br /> Our highly responsive team allows us to take your input and implement it in every stage of the app development process. As a result we can masterfully help out each and every customer with the best product out there.
+                    </p>
                 </div>
-                <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
-                    our projects
+                <div class="about-sections fade">
+                    <h3>
+                        Web Development
+                    </h3>
+                    <p>
+                        <img style="height: 44px; width: 64px; margin-bottom: 6px;" src="assets/website.png"> &nbsp; &nbsp; We offer high quality websites with the best designs and backend.
+                        <br />
+                        <img style="height: 34px; width: 28px; margin-left: 17px;" src="assets/lock.png"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Our websites are super secure and offer the safest data storage.
+                        <br /> We deliver websites specifically suited to your needs. You have a say in every step of the design and application process. We also offer maintenence to keep your website running spotlessly for years.
+                    </p>
+                </div>
+                <div class="about-sections fade">
+                    <h3>
+                        Application Maintenence
+                    </h3>
+                    <p>
+                        <img style="height: 34px; width: 34px; margin-bottom: 6px;" src="assets/maintenance.png"> &nbsp; &nbsp; We offer long term application health and security maintenance.
+                        <br />
+                        <img style="height: 34px; width: 28px;" src="assets/checklist.png"> &nbsp; &nbsp; &nbsp;Our maintenance keeps your applications running healthy and well
+                        <br /> We update faulty and insecure applications and update them to the highest standards. our maintenance priveds long term assistance to continously make sure that your applications are working at their best and healthiest capabilities.
+                    </p>
+                </div>
+                <div class="about-sections fade">
+                    <h3>
+                        Our Team
+                    </h3>
+                    <p>
+                        <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png"> &nbsp; &nbsp; CEO, Sofiane Larbi
+                        <br />
+                        <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png"> &nbsp; &nbsp; COO, Saad Naji
+                        <br />
+                        <img style="height: 50px; width: 50px; margin-bottom: 6px;" src="assets/icon.png"> &nbsp; &nbsp; Advisor, Cheryl Edison
+                        <br />
+                    </p>
+                </div>
+                <div class="about-us-next" onclick="plusSection(1)">
+                    &#10095;
                 </div>
             </div>
-        </div>
-        <!-- projects -->
-        <div class="main animate fadeInRight" id="projects">
-            <div class="main-upper-space">
-                <div class="main-upper-text">
-                    Tracery Technologies 
-                </div>
-            </div>
-            <div class="main-text-space" >
-                <h1>Our Projects,</h1>
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">1 / 4</div> -->
-                        <a target="_blank" href="https://nycaerospace.org"><img src="assets/nycaero-desktop.jpg" style="width:100%"></a>
-                        <!-- <div class="text-wrapper"><div class="text">nycaero</div></div> -->
-                    </div>
-                    
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">2 / 4</div> -->
-                        <a target="_blank" href="https://www.katapultads.com/"><img src="assets/katapult.gif" style="width:100%"></a>
-                        <!-- <div class="text-wrapper"><div class="text">katapult</div></div> -->
-                    </div>
-                    
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">3 / 4</div> -->
-                        <a target="_blank" href="https://covid.tracery.us/"><img src="assets/tracery-desktop.png" style="width:100%"></a>
-                        <!-- <div class="text-wrapper"><div class="text">contact tracing</div></div> -->
-                    </div>
 
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">4 / 4</div> -->
-                        <a target="_blank" href="https://fathomless-lowlands-11280.herokuapp.com"><img src="assets/falah.jpg" style="width:100%"></a>
-                        <!-- <div class="text-wrapper"><div class="text">falah</div></div> -->
-                    </div>
-                    
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    
-                </div>
-                    
+        </div>
+        <div class="main-button-space">
+            <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                Contact Us
             </div>
-            <div class="main-button-space">
-                <div class="main-primary-button glow-on-hover" onclick="showContact()">
-                    contact us
-                </div>
-                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
-                    about us
-                </div>
+            <div class="main-secondary-button glow-on-hover" onclick="showProjects()">
+                Our Projects
             </div>
         </div>
-        <!-- contact -->
-        <div class="main animate fadeInRight" id="contact">
-            <div class="main-upper-space">
-                <div class="main-upper-text">
-                    Tracery Technologies 
-                </div>
-            </div>
-            <div class="main-text-space" >
-                <h1>Contact us,</h1>
-                <p style="font-size: 22px;" class="contact-text">
-                    Working on a project? <br />
-                    We can help.          <br />
-                                          <br />
-                    Contact us at sofiane@tracery.us
-                </p>
-            </div>
-            <div class="main-button-space">
-                <div class="main-primary-button glow-on-hover" onclick="showProjects()">
-                    our projects
-                </div>
-                <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
-                    about us
-                </div>
+    </div>
+    <!-- projects -->
+    <div class="main animate fadeInRight" id="projects">
+        <div class="main-upper-space">
+            <div class="main-upper-text">
+                Tracery Technologies
             </div>
         </div>
-    </body>
-</html> 
+        <div class="main-text-space">
+            <h1>Our Projects,</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">1 / 4</div> -->
+                    <a target="_blank" href="https://nycaerospace.org"><img src="assets/nycaero-desktop.jpg" style="width:100%"></a>
+                    <!-- <div class="text-wrapper"><div class="text">nycaero</div></div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">2 / 4</div> -->
+                    <a target="_blank" href="https://www.katapultads.com/"><img src="assets/katapult.gif" style="width:100%"></a>
+                    <!-- <div class="text-wrapper"><div class="text">katapult</div></div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 4</div> -->
+                    <a target="_blank" href="https://covid.tracery.us/"><img src="assets/tracery-desktop.png" style="width:100%"></a>
+                    <!-- <div class="text-wrapper"><div class="text">contact tracing</div></div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">4 / 4</div> -->
+                    <a target="_blank" href="https://fathomless-lowlands-11280.herokuapp.com"><img src="assets/falah.jpg" style="width:100%"></a>
+                    <!-- <div class="text-wrapper"><div class="text">falah</div></div> -->
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
+        </div>
+        <div class="main-button-space">
+            <div class="main-primary-button glow-on-hover" onclick="showContact()">
+                Contact Us
+            </div>
+            <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                About Us
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="main animate fadeInRight" id="contact">
+        <div class="main-upper-space">
+            <div class="main-upper-text">
+                Tracery Technologies
+            </div>
+        </div>
+        <div class="main-text-space">
+            <h1>Contact Us</h1>
+            <p style="font-size: 22px;" class="contact-text">
+                Working on a project? <br /> We can help. <br />
+                <br /> Contact us at <a href="mailto:sofiane@tracery.us?subject=My%20Project">sofiane@tracery.us</a>
+            </p>
+        </div>
+        <div class="main-button-space">
+            <div class="main-primary-button glow-on-hover" onclick="showProjects()">
+                Our Projects
+            </div>
+            <div class="main-secondary-button glow-on-hover" onclick="showAbout()">
+                About Us
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
