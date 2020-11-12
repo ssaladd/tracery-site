@@ -82,7 +82,7 @@ body {
 
 .sidebar-socials {
     height: 300px;
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -777,6 +777,15 @@ img {
 }
 
 @media only screen and (max-width: 380px) {
+    .fa {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-sections {
+        display: none;
+        width: 245px;
+        height: initial;
+    }
     .slideshow-container {
         margin-top: 30px;
         border: 3px solid #060608;
@@ -790,7 +799,7 @@ img {
     }
     .sidebar-socials {
         height: 300px;
-        padding-top: 100px;
+        padding-top: 60px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -805,7 +814,7 @@ img {
         text-align: center;
     }
     .main-upper-text {
-        font-size: 18px;
+        font-size: 24px;
         font-family: robotoR;
     }
     .main-text-space {
@@ -834,7 +843,7 @@ img {
         margin: 0;
     }
     .main-text-space p {
-        width: 280px;
+        width: 240px;
         font-size: 12px;
     }
     .contact-text {
